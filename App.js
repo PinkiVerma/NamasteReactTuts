@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client'
+
 const heading = React.createElement("h1", { id: "heading" }, "Hello World from React")
 //now we need to inject this h1 tag inside the DOM, so for that we will use ReactDOM library's createRoot method
 
